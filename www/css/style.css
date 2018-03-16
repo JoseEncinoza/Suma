@@ -1,0 +1,180 @@
+/* ------ fondo ------ */
+
+#fondo{
+	position:fixed; 
+	z-index:-1; 
+	width:100%; 
+	height:100%;
+}
+/* ------ Textos ------ */
+.text-nar{
+	color: #f24505;
+}
+
+.text-azu{
+	color: #00A2E8;
+}
+
+/* ------ Botones ------ */
+.btn-nar{
+	background: #f24505;
+	color: #fff;
+}
+
+.btn-nar:hover{
+	background: #f37749;
+	color: #fff;
+}
+
+/* ------ NavBar ------ */
+.navbar-default {
+	margin-bottom: 4px;
+	background: #fff;
+    border: 4px solid #f24505;
+    border-radius: 20px;
+}
+
+.navbar-default .navbar-toggle {
+    border: 4px solid #f24505;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #f24505;
+}
+
+.navbar-default .navbar-collapse .navbar-nav li {
+    border-color: #f24505;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f24505;
+}
+
+/* ------ Cajas ------ */
+
+.box{
+	background: #fff; /*rgba(0,162,232,0.4)*/
+	margin: 20px 10px;
+	color:  #f24505;
+	border: 4px solid #00A2E8;
+	border-radius: 20px;
+}
+
+.box-title{
+	border-bottom: 4px solid #00A2E8;
+}
+
+.box img{
+	border-bottom: 4px solid #00A2E8;
+	width: 100%;
+	height: 200px;
+}
+
+.box-footer{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-top: 5px;
+	height: 50px;
+}
+
+.box-footer a{
+	color:  #f24505;
+}
+
+/* ------ Iconos ------ */
+
+.icono{
+	font-size: 30px;
+	color: #00A2E8;
+	border: 4px solid #f24505;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+/* ------ Perfil Causa ------ */
+.causa-box{
+	margin: 10px 10px;
+	border: 4px solid #00A2E8;
+	border-radius: 20px;
+}
+
+.causa-box img{
+	width: 100%;
+	border-radius: 15px;
+}
+
+.causa-msj{
+	margin: 5px 10px;
+	border: 4px solid #f24505;
+	border-radius: 20px;
+}
+
+.causa-descripcion{
+	margin: 10px 30px;
+	padding: 5px;
+	border: 4px solid #00A2E8;
+	border-radius: 20px;
+}
+
+/*.progress{
+	width: 0%;
+	margin: 5px;
+}*/
+
+/* ------ Barra progreso ------ */
+
+.progress{
+	background-color: rgba(0,0,0,0.7);
+}
+
+.progress-bar{
+	background-color: #00A2E8;
+}
+
+/* ------ Formularios ------ */
+
+.form-control{
+	border: 4px solid #00A2E8;
+	border-radius: 20px;
+	padding: 3px;
+}
+
+/* ------ Perfil ------ */
+
+.foto-perfil{
+	margin: 0px 30px;
+	width: 50%;
+	display: inline-block;
+}
+
+.foto-perfil img{
+	width: 100px;
+	height: 100px;
+	border: 4px solid #00A2E8;
+}
+
+/*color: 00A2E8; azul*/
+
+
+/* ------ Fondos ------ */
+
+.fondo
+{
+	background-color: rgba(0,162,232,0.1);
+	padding: 5px;
+	border-radius: 20px;
+
+}
+
+.categoria{
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px;
+	margin: 2px;
+}
+.categoria:active,.categoria:hover{
+	background-color: #f24505;
+	text-decoration: none;
+}

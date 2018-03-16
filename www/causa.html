@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<title>Suma - Causa</title>
+	<meta name="viewport" content="with=device-with, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<img src="img/fondo3-50.png"  id="fondo" > 
+<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+					<span class="sr-only">Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<img src="img/logo3.png" class="img-rounded" alt="Cinque Terre" width="50"> 
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="usuario.html">PERFIL</a></li>
+					<li><a href="info.html">QUIENES SOMOS</a></li>
+					<li><a href="index.html">CERRAR SESION</a></li>
+				</ul>
+			</div>
+		</div>
+</nav>
+<div class="container">
+
+	<div class="row">
+		<div class="col-xs-4 text-center">
+			<a href="inicio.html"><span class="glyphicon glyphicon-chevron-left icono"></span></a>
+		</div>
+		<div class="col-xs-4 text-center">
+			<a href="" onclick="" id="btnlike"><span class="glyphicon glyphicon-thumbs-up icono"></span></a>
+		</div>
+		<div class="col-xs-4 text-center">
+			<a href="" onclick="" id="btnseguir"><span class="glyphicon glyphicon-star icono"></span></a>
+		</div>
+	</div>
+
+	<div class="row text-center">
+		<div class="causa-box">
+			<img src="" id="fotoCausa">
+		</div>
+	</div>
+
+	<div class="row text-center">
+		<div class="col-xs-6 text-nar">
+			<h4 id="cantLikes"><span class="glyphicon glyphicon-thumbs-up"></span></h4>
+		</div>
+		<div class="col-xs-6 text-nar">
+			<h4 id="cantSeg"><span class="glyphicon glyphicon-star"></span></h4>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-xs-12">
+				<div class="progress">
+					<div class="progress-bar" id="progreso" role="progressbar" style="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row text-center">
+		<div class="causa-box">
+			<p id="descripcion"> </p>
+		</div>
+	</div>
+
+	<div class="row text-center text-nar">
+		<h4>Mensajes <span class="glyphicon glyphicon-envelope"></h4>
+	</div>
+
+	<div class="row text-center">
+		<div class="causa-box">
+			<div class="causa-msj">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+				<p>18/20/2017</p>
+			</div>
+			<div class="causa-msj">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+				<p>18/20/2017</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row text-center text-nar">
+		<h4>Comentarios <span class="glyphicon glyphicon-comment"></h4>
+	</div>
+
+	<div class="row text-center">
+		<div class="causa-box" id="cajaMsj">
+
+		</div>
+	</div>
+
+	<form name="comentar">
+	<div class="form-group text-center">
+		<textarea class="form-control" name="comentarText" placeholder="Comenta"></textarea>
+		<a href="" onclick="Comentar();"><span class="glyphicon glyphicon-ok icono"></span></a>
+	</div>
+	</form>
+
+
+</div> 
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script src="js/causa.js"></script>
+</body>
+</html>
